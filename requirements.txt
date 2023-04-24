@@ -1,0 +1,36 @@
+# requirements.txt
+#   Contiene la lista de paquetes
+#   que serán ocupados en el proyecto
+
+# Versión no específicada
+# package
+
+# Versión aproximada
+# package~=version (x.y.z)
+
+# Versión mínima
+# package>=version (x.y.z)
+
+# Versión exacta
+# package==version (x.y.z)
+
+# pip
+#   Es el gestor de paquetes de python
+#   Para instalar un paquete hacemos en una terminal:
+#   $ pip install package
+#   $ pip install package~=version (x.y.z)
+#   $ pip install package>=version (x.y.z)
+#   $ pip install package==version (x.y.z)
+
+jupyter
+
+# $ pip install jupyter
+
+matplotlib~=3.7.1
+pandas==2.0.0
+numpy>=1.17.3
+scipy>=1.3.2
+Pillow>=7.1.2
+scikit-learn>=1.2.2
+
+# $ pip install matplotlib pandas numpy scipy Pillow scikit-learn
